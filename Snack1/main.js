@@ -28,22 +28,26 @@ for (let i = 0; i < bike.length; i++) {
 
 
 }
-console.log(newArr);
 
-let compareFIrstIf
-
+let result
+let lighterBike
 if (newArr[0] > newArr[1]) {
-    compareFIrstIf = newArr[1]
+    result = newArr[1]
+    lighterBike = bike[1]
 } else {
-    compareFIrstIf = newArr[0]
+    result = newArr[0]
+    lighterBike = bike[0]
 }
 
 
-if (compareFIrstIf > newArr[2]) {
-    compareFIrstIf = newArr[2]
+if (result > newArr[2]) {
+    result = newArr[2]
+    lighterBike = bike[2]
 }else{
-    compareFIrstIf = compareFIrstIf
+    result = result
+    lighterBike = lighterBike
     
 }
+console.log(result);
 
-console.log(`La bici più leggera pesa ${compareFIrstIf} kg`);
+console.log(lighterBike);
