@@ -6,13 +6,13 @@ let bike = [
     },
 
     {
-        name: "bike 1",
+        name: "bike 2",
         weight: 18,
 
     },
 
     {
-        name: "bike 1",
+        name: "bike 3",
         weight: 15,
 
     }
