@@ -7,13 +7,13 @@ let bike = [
 
     {
         name: "bike 2",
-        weight: 18,
+        weight: 8,
 
     },
 
     {
         name: "bike 3",
-        weight: 15,
+        weight: 1,
 
     }
 ]
